@@ -3,7 +3,8 @@ var superagent = require('superagent'),
     webhook = process.env.webhook,
     messages = [
         'Time for scrum!',
-        'Scrum Master Gus says: go have standup!',
+        'It\'s scum time!',
+        'What are you going to work on today? It\'s time for scrum!',
         'You know what time it is? SCRUM TIME!'
     ],
     payload = {
